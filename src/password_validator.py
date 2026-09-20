@@ -1,3 +1,5 @@
+import re
+
 def is_valid_password(password):
     """Return True if password satisfies basic password requirements."""
     if not isinstance(password, str):
