@@ -31,10 +31,10 @@ def test_password_type_error():
         is_valid_password(12345678)
 
 
-# def test_mask_password():
-#     """Test masking a valid password."""
-#     password = "Secure123"
-#
-#     result = mask_password(password)
-#
-#     assert result == "S****1"
+def test_mask_password():
+    """Test masking a valid password."""
+    password = "Secure123"
+
+    result = mask_password(password)
+
+    assert result == "S****1"
