@@ -37,4 +37,4 @@ def test_mask_password():
 
     result = mask_password(password)
 
-    assert result == "S****1"
+    assert result == "S*******3"
